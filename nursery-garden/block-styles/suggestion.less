@@ -1,0 +1,55 @@
+.suggestion {
+  
+  background: url('../images/suggest-bg.jpg') center center no-repeat;
+  background-size: cover;
+  &__inner {
+    height: 490px;  
+    align-content: center;    
+  }
+  &__title {
+    .title();
+    font-size: 48px;
+    flex-basis: 100%;
+    text-align: center;
+    /*margin-top: 80px;*/
+  }
+  &__list {
+    flex-basis: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    /*margin: 100px 0;*/
+    margin-top: 100px;
+  }
+  &__item {
+    flex-basis: 25%; 
+    display: flex;  
+    flex-wrap: wrap;
+    /*padding-top: 120px;*/
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+  &__icon {
+    background: url('../images/suggest.png') center top no-repeat; 
+    flex-basis: 120px;
+    height: 101px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  &__icon--quality {
+    background-position: 0 0; 
+  }
+  &__icon--action {
+    background-position: -120px 0; 
+  }
+  &__icon--help {
+    background-position: -240px 0; 
+  }
+  &__icon--care {
+    background-position: -360px 0; 
+  }
+  &__descr {
+    margin: 0 auto;
+    flex-basis: 200px;
+  }
+}

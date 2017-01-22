@@ -1,0 +1,78 @@
+.scheme {
+  background: url('../images/scheme-bg.jpg') center center no-repeat;
+  background-size: cover;
+  &__inner {
+    height: 881px;
+    align-content: center;
+  }
+  &__title {
+    .title();
+    font-size: 48px;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 505px;
+    margin: 0 auto;
+	flex-basis: 860px;
+	background: url('../images/scheme-list.png') center center no-repeat;
+  }
+  &__item {
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+  }
+  &__icon {
+    background: url('../images/scheme.png') center center no-repeat;
+    width: 110px;
+    height: 103px;
+  }/*
+  &__icon--call {
+    background-position: -10px 10px;
+  }
+  &__icon--calc {
+    background-position: -150px 10px;  
+  }
+  &__icon--delivery {
+    background-position: -250px 10px;  
+  }
+  &__icon--work {
+    background-position: -10px -120px;  
+  }
+  &__icon--payment {
+    background-position: -130px -125px;  
+  }
+  &__icon--garden {
+    background-position: -255px -130px;  
+  }*/
+  &__icon--call {
+    background-position: 0 0;
+  }
+  &__icon--calc {
+    background-position: 0 -103px;  
+  }
+  &__icon--delivery {
+    background-position: 0 -206px;  
+  }
+  &__icon--work {
+    background-position: 0 -309px;  
+  }
+  &__icon--payment {
+    background-position: 0 -412px;  
+  }
+  &__icon--garden {
+    background-position: 0 -515px;  
+  }
+  &__descr {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  } 
+}

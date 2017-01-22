@@ -1,0 +1,82 @@
+cd C:\Users\Oksana
+cd C:\Users\Oksana
+cd C:\Users\Oksana\Рабочий стол\Trees
+C:\Users\Oksana\Desktop\Trees
+cd C:\Users\Oksana\Desktop\Trees
+npm init
+npm i gulp --save-dev
+cd C:\Users\Oksana\Desktop\trees 
+cd C:\Users\Oksana\Desktop\trees\node_modules\.bin 
+gulp mytask
+npm i gulp --save-dev
+cd C:\Users\Oksana\Desktop\trees 
+cd C:\Users\Oksana\Desktop\trees\node_modules\.bin 
+cd C:\Users\Oksana\Desktop\trees
+gulp mytask
+npm i gulp-less --save-dev
+npm i gulp-watch --save-dev
+npm i browser-sync --save-dev
+grunt watch
+gulp watch
+npm i browser-sync --save-dev
+grunt watch
+C:\Users\Oksana\Desktop\trees 
+cd C:\Users\Oksana\Desktop\trees 
+gulp watch
+npm i gulp --save-dev
+cd C:\Users\Oksana\Desktop\trees 
+cd C:\Users\Oksana\Desktop\trees\node_modules\.bin 
+cd C:\Users\Oksana\Desktop\trees
+gulp mytask
+npm i gulp-less --save-dev
+npm i gulp-watch --save-dev
+npm i browser-sync --save-dev
+grunt watch
+gulp watch
+npm i browser-sync --save-dev
+grunt watch
+C:\Users\Oksana\Desktop\trees 
+cd C:\Users\Oksana\Desktop\trees 
+gulp watch
+npm i gulp-concat --save-dev
+npm i gulp-uglifyjs --save-dev
+gulp scripts
+gulp watch
+npm i gulp-concat --save-dev
+npm i gulp-uglifyjs --save-dev
+gulp scripts
+cd C:\Users\Oksana\Desktop\trees 
+npm i gulp autoprefixer --save-dev
+npm i gulp-autoprefixer --save-dev
+gulp less
+cdC:\Users\Oksana\Desktop\trees 
+cd C:\Users\Oksana\Desktop\trees
+gulp watch
+gulp autoprefixer
+gulp less
+cd C:\Users\Oksana\Desktop\trees 
+npm i gulp autoprefixer --save-dev
+npm i gulp-autoprefixer --save-dev
+gulp less
+cdC:\Users\Oksana\Desktop\trees 
+gulp autoprefixer
+cd C:\Users\Oksana\Desktop\trees
+gulp watch
+npm gulp-cssnano --save-dev
+npm i gulp-cssnano --save-dev
+npm i gulp-rename --save-dev
+gulp less
+cd "C:\Users\Oksana\Desktop\Тверской питомник\trees" 
+gulp watch
+gulp autoprefixer
+cd C:\Users\Oksana\Desktop\trees
+gulp watch
+npm gulp-cssnano --save-dev
+npm i gulp-cssnano --save-dev
+npm i gulp-rename --save-dev
+cd "C:\Users\Oksana\Desktop\Тверской питомник\trees" 
+cd C:\Users\Oksana\Desktop\Pitomnik\trees 
+gulp less
+gulp watch
+cd C:\Users\Oksana\Desktop\Pitomnik\trees 
+gulp watch

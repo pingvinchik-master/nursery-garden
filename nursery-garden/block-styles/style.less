@@ -1,0 +1,83 @@
+@import "variables.less";
+@import "reset.less";
+@import "header.less";
+@import "slider.less";
+@import "menu.less";
+@import "advantages.less";
+@import "product.less";
+@import "suggestion.less";
+@import "more-products.less";
+@import "service.less";
+@import "scheme.less";
+@import "footer.less";
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'EB Garamond', serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.wrapper {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 1 auto;  
+}
+div[class$="inner"] {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#go-off {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  width: 71px;
+  height: 71px;
+  background: url('../images/up.png')center center no-repeat;
+}
+#go-off:hover {
+  cursor: pointer;
+}
+
+.slider__arrow {
+  &--right {
+    background: url('../images/arrow-right.png');
+	position: absolute;
+	right: -45px;
+	top: 50%;
+	width: 16px;
+	height: 24px;
+	margin-top: -13px;
+  }
+  &--right:hover {
+    cursor: pointer;  
+  }
+  &--left {
+    background: url('../images/arrow-left.png');
+	position: absolute;
+	left: -45px;
+	top: 50%;
+	width: 16px;
+	height: 24px;
+	margin-top: -13px;
+  }
+  &--left:hover {
+    cursor: pointer;  
+  }
+}
